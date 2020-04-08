@@ -1,5 +1,5 @@
-function execute (bot, msg, args) {
-  return msg.replay("Coe bro")
+const execute = (bot,msg,args) => {
+  return msg.reply(`Mensagem inicial :D`)
 }
 
 
